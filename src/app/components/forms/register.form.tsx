@@ -20,6 +20,8 @@ export default function RegisterForm({onClose}: IProps) {
         e.preventDefault();
 
         console.log(e)
+        onClose();
+
     };
 
     return (

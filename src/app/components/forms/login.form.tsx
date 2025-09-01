@@ -10,7 +10,6 @@ export default function LoginForm({onClose}: IProps) {
     const [formData, setFormData] = useState({
         email: "",
         password: "",
-        confirmPassword: ""
     })
 
     const onSubmit = (e: React.FormEvent) => {

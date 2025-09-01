@@ -5,7 +5,7 @@ interface IProps {
     onClose: () => void;
 }
 const RegisterModal = ({isOpen, onClose}: IProps ) => {
-    return(<CustomModal isOpen={isOpen} onClose={onClose} title="Авторизация">
+    return(<CustomModal isOpen={isOpen} onClose={onClose} title="Регистрация">
         <RegisterForm onClose={onClose}/>
     </CustomModal>
         )
